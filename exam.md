@@ -235,7 +235,7 @@ Sie brauchen keine **import**- oder **package**-Anweisungen zu schreiben.
 
 Schreiben Sie eine **public**-Klassenmethode **foobar**, die zwei Parameter **a** und **b** vom Typ "Array von **String**" und Rückgabetyp "Array von **char**" hat (die Klasse, zu der **foobar** gehört, müssen Sie nicht schreiben). Ihre Methode **foobar** kann ohne Prüfung davon ausgehen, dass **a** und **b** auf **String**-Arrays mit Länge größer **0** verweisen und dass jede Komponente von **a** und **b** auf jeweils einen String mit Länge größer **0** verweist.
 
-Für jeden Index **i** in der Schnittmenge der Indexbereiche von **a** und **b** (also für jedes **i** $\in \{0,\dots,\min\{$**a.length**,**b.length**$\}\}$), an dem das erste Zeichen dieser beiden Strings dasselbe ist, enthält das zurückgelieferte Array eine Komponente mit diesem Zeichen als Inhalt. Die Reihenfolge dieser Komponenten ist dieselbe wie in **a** und **b**. Darüber hinaus enthält das zurückgelieferte Array keine Komponenten.
+Für jeden Index **i** in der Schnittmenge der Indexbereiche von **a** und **b** (also für jedes **i** $\in$ {0, $\dots$, $\min$ {**a.length**,**b.length**}}), an dem das erste Zeichen dieser beiden Strings dasselbe ist, enthält das zurückgelieferte Array eine Komponente mit diesem Zeichen als Inhalt. Die Reihenfolge dieser Komponenten ist dieselbe wie in **a** und **b**. Darüber hinaus enthält das zurückgelieferte Array keine Komponenten.
 
 ***Beispiel:*** a=[<u>v</u>w,wx,<u>x</u>y,<u>w</u>x,z], b=[<u>v</u>z,xw,<u>x</u>y,<u>w</u>,vz,zx,yv] $\longrightarrow$ [v,x,w]
 
@@ -249,7 +249,7 @@ Sie brauchen keine **import**- oder **package**-Anweisungen zu schreiben.
 
 Schreiben Sie eine **public**-Klassenmethode **foobar**, die zwei Parameter **a** und **b** vom Typ "Array von **String**" und Rückgabetyp "Array von **char**" hat (die Klasse, zu der **foobar** gehört, müssen Sie nicht schreiben). Ihre Methode **foobar** kann ohne Prüfung davon ausgehen, dass **a** und **b** auf String-Arrays mit Länge größer 0 verweisen und dass jede Komponente von **a** und **b** auf jeweils einen String mit Länge größer **0** verweist.
 
-Für jeden Index **i** in der Schnittmenge der Indexbereiche von **a** und **b** (also für jedes **i** $\in \{0,\dots,\min\{$**a.length**,**b.length**$\}\}$), an dem das erste Zeichen dieser beiden Strings dasselbe ist, enthält das zurückgelieferte Array eine Komponente mit diesem Zeichen als Inhalt. Die Reihenfolge dieser Komponenten ist dieselbe wie in **a** und **b**. Darüber hinaus enthält das zurückgelieferte Array keine Komponenten.
+Für jeden Index **i** in der Schnittmenge der Indexbereiche von **a** und **b** (also für jedes **i** $\in$ {0, $\dots$, $\min$ {**a.length**,**b.length**}}), an dem das erste Zeichen dieser beiden Strings dasselbe ist, enthält das zurückgelieferte Array eine Komponente mit diesem Zeichen als Inhalt. Die Reihenfolge dieser Komponenten ist dieselbe wie in **a** und **b**. Darüber hinaus enthält das zurückgelieferte Array keine Komponenten.
 
 ***Beispiel:*** a=[<u>v</u>w,wx,<u>x</u>y,<u>w</u>x,z], b=[<u>v</u>z,xw,<u>x</u>y,<u>w</u>,vz,zx,yv] $\longrightarrow$ [v,x,w]
 
